@@ -74,6 +74,21 @@ node default {
   #include ruby::1_9_3
   #include ruby::2_0_0
 
+  include osx::no_network_dsstores
+
+  include wget
+  include zsh
+  include mysql
+  include php::5_3
+
+  # local application for develop
+  include sequal_pro
+  include virtualbox
+  include sublime_text_2
+  include chrome
+
+  # local application for utility
+
   # common, useful packages
   package {
     [
