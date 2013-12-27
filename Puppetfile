@@ -34,14 +34,14 @@ github "boxen", "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "osx",        "1.6.0"
+github "osx",        "2.2.1"
 
 github "dnsmasq",    "1.0.0"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
 github "git",        "1.2.5"
 github "go",         "1.0.0"
-github "homebrew",   "1.5.1"
+github "homebrew",   "1.6.0"
 github "hub",        "1.0.3"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.2"
@@ -57,7 +57,7 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "php",            "1.1.0"
+github "php",            "1.1.4"
 github "libtool",        "1.0.0" # use for php
 github "pkgconfig",      "1.0.0" # use for php
 github "pcre",           "1.0.0" # use for php
@@ -69,7 +69,8 @@ github "imagemagick",    "1.2.0" # via homebrew
 
 
 github "sequel_pro",     "1.0.0"
-github "virtualbox",     "1.0.5"
-github "dropbox",        "1.1.0"
+github "virtualbox",     "1.0.10"
+github "dropbox",        "1.2.0"
 github "sublime_text_2", "1.1.2"
 github "chrome",         "1.1.0"
+github "sourcetree",     "1.0.0"
