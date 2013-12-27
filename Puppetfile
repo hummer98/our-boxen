@@ -55,3 +55,19 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "php",            "1.1.0"
+github "libtool",        "1.0.0" # use for php
+github "pkgconfig",      "1.0.0" # use for php
+github "pcre",           "1.0.0" # use for php
+github "libpng",         "1.0.0" # use for php
+github "wget",           "1.0.0" # via homebrew
+github "zsh",            "1.0.0" # via homebrew
+github "mysql",          "1.1.0" # via homebrew
+github "imagemagick",    "1.2.0" # via homebrew
+
+
+github "sequel_pro",     "1.0.0"
+github "virtualbox",     "1.0.5"
+github "dropbox",        "1.1.0"
+github "sublime_text_2", "1.1.2"
+github "chrome",         "1.1.0"
