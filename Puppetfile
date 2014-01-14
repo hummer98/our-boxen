@@ -36,8 +36,7 @@ github "boxen", "3.3.4"
 
 github "osx",        "2.2.1"
 
-
-github "dnsmasq",    "1.0.0"
+github "dnsmasq",    "1.0.1"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
 github "git",        "1.3.7"
@@ -55,6 +54,7 @@ github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
+github "cocoapods",  "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
