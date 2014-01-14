@@ -96,11 +96,7 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-<<<<<<< HEAD
       'tree',
-=======
-      'tree'
->>>>>>> 24de91b04f91d74560a555785321371c7cf417e7
     ]:
   }
 
