@@ -86,6 +86,7 @@ node default {
   include virtualbox
   include sublime_text_2
   include chrome
+  include sourcetree
 
   # local application for utility
 
@@ -95,7 +96,11 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
+<<<<<<< HEAD
       'tree',
+=======
+      'tree'
+>>>>>>> 24de91b04f91d74560a555785321371c7cf417e7
     ]:
   }
 
