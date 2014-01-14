@@ -54,6 +54,7 @@ Homebrew::Formula <| |> -> Package <| |>
 node default {
   # core modules, needed for most things
   #include dnsmasq
+  include homebrew
   include git
   include hub
   #include nginx
@@ -78,11 +79,10 @@ node default {
 
   include wget
   include zsh
-  include mysql
-  include php::5_3
+  #include php::5_4
 
   # local application for develop
-  include sequal_pro
+  include sequel_pro
   include virtualbox
   include sublime_text_2
   include chrome
@@ -94,7 +94,8 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'tree',
     ]:
   }
 
